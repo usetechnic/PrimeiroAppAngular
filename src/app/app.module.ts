@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NovoComponente } from './teste_componente/componente';
+import { NovoCorpo } from './teste_componente/corpo';
+import { NovoPe } from './teste_componente/pe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NovoComponente,
+    NovoCorpo,
+    NovoPe
   ],
   imports: [
     BrowserModule,
@@ -14,5 +20,9 @@ import { AppComponent } from './app.component';
   ],
   providers: [],
   bootstrap: [AppComponent]
+
+  
 })
 export class AppModule { }
+
+
